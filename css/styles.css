@@ -224,7 +224,7 @@ h2::after {
 }
 
 .wrapper-img-stylization:hover .overlay {
-  opacity: 0.9;
+  visibility: visible;
   transform: translate(-10px, -10px);
 }
 
@@ -266,7 +266,7 @@ h2::after {
     rgba(252, 227, 138, 0.9) 0%,
     rgba(243, 129, 129, 0.9) 100%
   );
-  opacity: 0;
+  visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
