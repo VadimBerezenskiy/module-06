@@ -136,27 +136,27 @@ h2::after {
 }
 
 .clock {
-  background-image: url(/img/icon/services/alarm1.png);
+  background-image: url(../img/icon/services/alarm1.png);
 }
 
 .line-graph {
-  background-image: url(/img/icon/services/linegraph2.png);
+  background-image: url(../img/icon/services/linegraph2.png);
 }
 
 .computer {
-  background-image: url(/img/icon/services/computer3.png);
+  background-image: url(../img/icon/services/computer3.png);
 }
 
 .book {
-  background-image: url(/img/icon/services/book4.png);
+  background-image: url(../img/icon/services/book4.png);
 }
 
 .home {
-  background-image: url(/img/icon/services/home5.png);
+  background-image: url(../img/icon/services/home5.png);
 }
 
 .image {
-  background-image: url(/img/icon/services/image6.png);
+  background-image: url(../img/icon/services/image6.png);
 }
 
 .services-item-text {
@@ -299,19 +299,19 @@ h2::after {
 }
 
 .overlay-list-item-link-facebook {
-  background-image: url(/img/icon/social/facebook1.png);
+  background-image: url(../img/icon/social/facebook1.png);
 }
 
 .overlay-list-item-link-twitter {
-  background-image: url(/img/icon/social/twitter2.png);
+  background-image: url(../img/icon/social/twitter2.png);
 }
 
 .overlay-list-item-link-pinterest {
-  background-image: url(/img/icon/social/pinterest3.png);
+  background-image: url(../img/icon/social/pinterest3.png);
 }
 
 .overlay-list-item-link-instagram {
-  background-image: url(/img/icon/social/instagram4.png);
+  background-image: url(../img/icon/social/instagram4.png);
 }
 
 /* .Rectangle_14_copy {
