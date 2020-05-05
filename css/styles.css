@@ -11,7 +11,7 @@ html {
 .container {
   margin: 0 auto;
   padding: 0;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 .clearfix::after {
@@ -48,6 +48,7 @@ ul {
   font-weight: 700;
   line-height: 36px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .list {
@@ -213,16 +214,23 @@ h2::after {
   padding-bottom: 76px;
 }
 
-.team-list-person {
+.wrapper-img-stylization {
   position: relative;
 }
 
 .team-list-person-photo {
   margin-bottom: 30px;
+  transition: all 200ms linear;
 }
 
-.team-list-person:hover .overlay {
+.wrapper-img-stylization:hover .overlay {
   opacity: 0.9;
+  transform: translate(-10px, -10px);
+}
+
+.wrapper-img-stylization:hover .team-list-person-photo {
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px #95e1d3;
 }
 
 .name-person {
@@ -262,6 +270,7 @@ h2::after {
   position: absolute;
   top: 0;
   left: 0;
+  transition: all 200ms linear;
 }
 
 .overlay-list {
@@ -271,7 +280,7 @@ h2::after {
 
 .overlay-list-item-link {
   display: block;
-  background-color: rgb(252, 227, 138);
+  background-color: rgba(252, 227, 138, 1);
   background-clip: padding-box;
   width: 56px;
   height: 56px;
@@ -307,12 +316,8 @@ h2::after {
 
 /* .Rectangle_14_copy {
   background-color: rgb(149, 225, 211);
-  position: absolute;
-  left: 360px;
-  top: 980px;
   width: 380px;
   height: 470px;
-  z-index: 18;
 } */
 
 /* FOOTER */
@@ -326,18 +331,47 @@ h2::after {
 }
 
 .footer-info {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 28px;
-  letter-spacing: -0.32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
 }
 
 .footer-info p {
   margin: 0;
-  color: #333333;
 }
 
 .link-info {
-  color: #46bfa9;
+  color: #f38181;
   text-decoration: none;
+}
+
+.contact-form {
+  display: flex;
+}
+
+.contact-form-input {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #cccccc;
+  font-style: italic;
+  border: 1px solid #e7e7e7;
+  border-right: none;
+  width: 230px;
+  padding: 10px 14px;
+}
+
+.contact-form-btn {
+  width: 150px;
+  border: none;
+  background-color: #95e1d3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 17px;
+  text-align: center;
+  cursor: pointer;
 }
