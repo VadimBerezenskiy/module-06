@@ -119,49 +119,42 @@ h2::after {
 }
 
 .services-item {
-  width: 383px;
-  display: flex;
-  justify-content: space-between;
+  flex-basis: 382px;
+  background-repeat: no-repeat;
+  background-position-x: 20px;
 }
 
 .services-item:nth-of-type(-n + 3) {
   margin-bottom: 94px;
 }
 
-.services-item-icon {
-  flex-basis: 82px;
-  height: 33px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.clock {
+.icon-clock {
   background-image: url(../img/icon/services/alarm1.png);
 }
 
-.line-graph {
+.icon-line-graph {
   background-image: url(../img/icon/services/linegraph2.png);
 }
 
-.computer {
+.icon-computer {
   background-image: url(../img/icon/services/computer3.png);
 }
 
-.book {
+.icon-book {
   background-image: url(../img/icon/services/book4.png);
 }
 
-.home {
+.icon-home {
   background-image: url(../img/icon/services/home5.png);
 }
 
-.image {
+.icon-image {
   background-image: url(../img/icon/services/image6.png);
 }
 
 .services-item-text {
-  flex-basis: 300px;
-  margin-left: 20px;
+  width: 300px;
+  margin-left: 82px;
 }
 
 .services-item-text h3 {
@@ -214,6 +207,10 @@ h2::after {
   padding-bottom: 76px;
 }
 
+.team-list-person {
+  width: 100%;
+}
+
 .wrapper-img-stylization {
   position: relative;
 }
@@ -259,8 +256,8 @@ h2::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 380px;
-  height: 470px;
+  width: 100%;
+  height: 100%;
   background-image: linear-gradient(
     0deg,
     rgba(252, 227, 138, 0.9) 0%,
@@ -354,7 +351,6 @@ h2::after {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 300;
-  color: #cccccc;
   font-style: italic;
   border: 1px solid #e7e7e7;
   border-right: none;
